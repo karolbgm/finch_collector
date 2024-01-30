@@ -5,4 +5,5 @@ urlpatterns = [
 # Define all the app level urls in this list
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
+    path('birds/', views.birds_index, name='index'),
 ]
